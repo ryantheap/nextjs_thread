@@ -3,9 +3,7 @@ import Link from "next/link";
 export default function Login() {
   return (
     <div>
-      <h1 className="text-center font-bold text-white text-xl">
-        Comment souhaitez-vous utiliser Threads
-      </h1>
+      <h1 className="title">Comment souhaitez-vous utiliser Threads</h1>
 
       <div className="mt-5 w-[500px] mx-auto flex flex-col gap-4">
         <Link href="/login/signup">
